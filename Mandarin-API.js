@@ -24,8 +24,17 @@ const [query, setQuery] = useState('chicken');
     getCharacter()
   }, []) //[query] will make useEffect run only when query updates. (Ie when search is pressed)
   
-const searchWord = "hao"
+    
+    
+    
+    
+    
+    
+//Below is the async await function that is not working. I am unsure how to properly query this database to search for searchWord.
 
+    
+    
+const searchWord = "hao"
 
 //the data awaits for the response to be fulfilled, changes it to a json object, then logs it.
 const getCharacter = async () => {
@@ -37,8 +46,17 @@ const getCharacter = async () => {
     console.log(data)
     setSearch(data.hits);
   };
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
-  //updateSearch will update the search bar (duh). Needs the event (e) to take the info from input.
+  //updateSearch will update the search bar. Needs the event (e) to take the info from input.
   const updateSearch = e => {
     setSearch(e.target.value);
     console.log(search);
