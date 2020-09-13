@@ -1,0 +1,14 @@
+.nav-links {
+    font-size:30px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+
+    padding:10px;
+    background-color:lightblue
+}
+
+.navStyle{
+    color:black;
+}

@@ -1,0 +1,26 @@
+.Parent{
+    display:flex;
+
+    /* border:1px solid black; */
+    
+    flex-direction: column;
+  
+    align-items: center; 
+  } 
+  
+.Library{
+    display:flex;
+    /* border: 1px solid orange; */
+    flex-direction:column;
+    width:700px;
+}
+
+.LessonSelect{
+    margin-left: 40px;
+}
+
+h2 {
+    display:flex;
+    justify-content:center;
+    font-size:50px;
+}
