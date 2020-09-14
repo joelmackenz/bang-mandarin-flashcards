@@ -1,0 +1,45 @@
+ .buttonBox {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction:row;
+    width:700px;
+ }
+
+
+button {
+    order:1;
+    border: dotted black;
+    height: 120px;
+    width: 130px;
+    border-radius: 30%;
+    padding: 30px; 
+    margin-left: 40px;
+} 
+
+.checkbox {
+    order: 2;
+}
+
+.mandPinyinBox {
+    display:flex;
+    align-items:center;
+    order:2;
+    flex-direction:column;
+    margin-left:40%;
+}
+
+.mandCard {
+    font-size: 140px;
+    margin-top: -175%;
+}
+
+.pinyinCard {
+    font-size: 50px;
+    margin-top:-75%;
+
+} 
+
+.englishCard {
+    font-size:30px;
+    margin-top: -25%;
+}
