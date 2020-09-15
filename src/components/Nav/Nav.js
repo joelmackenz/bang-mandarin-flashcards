@@ -3,29 +3,20 @@ import {Link, withRouter} from 'react-router-dom';
 import "./Nav.css";
 
 function Nav() {
-
-const navStyle = {
-    color:'black'
-}
-
   return (
-    <nav>
+    <nav className="nav">
+      <h1 className="main-title">Mandarin Flashcards</h1>
         <ul className="nav-links">
-
-            <Link className="navStyle" to='/study'>
+            <Link className="nav-style" to='/study'>
               Study
             </Link>
 
-            <Link className="navStyle" to='/shop'>
-              Shop
-            </Link>
-
-            <Link className="navStyle" to='/dictionary'>
+            <Link className="nav-style" to='/dictionary'>
               Dictionary
             </Link>
 
-            <Link className="navStyle" to='/API'>
-              API
+            <Link className="nav-style" to='/charactersearch'>
+              Character Search
             </Link>
             
         </ul>

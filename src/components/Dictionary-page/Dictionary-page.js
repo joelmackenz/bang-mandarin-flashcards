@@ -41,10 +41,10 @@ class DictionaryPage extends React.Component {
             <div>
                 <h2>Dictionary</h2>
                 <div className="columnTitles">
-                    <h1>Chapter</h1>
-                    <h1>Character</h1>
-                    <h1>Pinyin</h1>
-                    <h1>English</h1>
+                    <h1 class-name="title">Chapter</h1>
+                    <h1 class-name="title">Character</h1>
+                    <h1 class-name="title">Pinyin</h1>
+                    <h1 class-name="title">English</h1>
                 </div>
                 {entries}
             </div>
