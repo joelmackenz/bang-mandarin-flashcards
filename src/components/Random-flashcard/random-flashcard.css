@@ -1,45 +1,61 @@
- .buttonBox {
+ .outer-box {
+     /* border: 1rem solid red; */
+     display:flex;
+     flex-direction: row;
+     align-items:flex-start;
+     width:50rem;
+     
+ }
+ .button-box {
     /* border: 1px solid blue; */
     display: flex;
     flex-direction:row;
-    width:700px;
  }
 
 
-button {
+.rand-button {
     order:1;
     border: dotted black;
     height: 120px;
     width: 130px;
     border-radius: 30%;
-    padding: 30px; 
-    margin-left: 40px;
+    padding: 30px;
 } 
 
 .checkbox {
     order: 2;
 }
 
-.mandPinyinBox {
+.character-box {
+    /* outline:1rem solid fuchsia; */
     display:flex;
+    flex-direction: column;
     align-items:center;
-    order:2;
+    justify-content: flex-start;
+    margin-top:-28rem;
+    width:30rem;
+    /* flex-basis:50%; */
+}
+
+.pinyin-english-box {
+    display:flex;
     flex-direction:column;
-    margin-left:40%;
+    flex-wrap:wrap;
+    align-items:center;
+    /* outline:1rem dotted cyan; */
+    width:30rem;
+    margin-top:-15rem;
 }
 
-.mandCard {
-    font-size: 140px;
-    margin-top: -175%;
+.mand-card {
+    font-size: 10rem;
 }
 
-.pinyinCard {
-    font-size: 50px;
-    margin-top:-75%;
-
+.pinyin-card {
+    font-size: 5rem;
 } 
 
-.englishCard {
-    font-size:30px;
-    margin-top: -25%;
+.english-card {
+    font-size:2rem;
+    margin-top:-3rem;
 }

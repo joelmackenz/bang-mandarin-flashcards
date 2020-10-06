@@ -56,16 +56,16 @@ class RandomFlashcard extends React.Component {
     render() {
         let englishCardDisplay;
         if (this.state.englishCardShow) {
-            englishCardDisplay = <p className="englishCard">{this.state.englishCard}</p>
+            englishCardDisplay = <p className="english-card">{this.state.englishCard}</p>
         } else { 
-        englishCardDisplay = <p className="englishCard"></p>
+        englishCardDisplay = <p className="english-card"></p>
         }
 
     return (
-        <div >
-            <div className="buttonBox">
-
-                <button
+        <div className="outer-box">
+        <div>
+            <div className="button-box">
+                <button className="rand-button"
                     onClick={() => {
                             if (this.buttonToggle) {
                                 this.buttonToggle = !this.buttonToggle
@@ -76,17 +76,19 @@ class RandomFlashcard extends React.Component {
                         }}}>
                     {this.randOrRevealDisplay}
                 </button>
-
                 <Checkbox className="checkbox" title="English" onChange={this.showEnglish} />
-
-                <div className="mandPinyinBox" >
-                    <p className="mandCard">{this.state.mandCard}</p>
-                    <p className="pinyinCard">{this.state.pinyinCard}</p>
+            </div>
+            </div>
+            <div className="character-box">
+                <div>
+                    <p className="mand-card">{this.state.mandCard}</p>
+                </div>
+                <div className="pinyin-english-box">
+                    <p className="pinyin-card">{this.state.pinyinCard}</p>
                     {englishCardDisplay}
                 </div>
 
             </div>
-
 
         </div>
     )

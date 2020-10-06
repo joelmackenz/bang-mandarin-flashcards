@@ -5,7 +5,7 @@ export class displayLesson extends React.Component {
   render() {
     return (
       <div >
-        <p className="LessonDisplay">{this.props.currentLessonDisplay}</p>
+        <p className="LessonDisplay">{this.props.currentLessonDisplay.slice(0,10)}</p>
       </div>
     );
   }

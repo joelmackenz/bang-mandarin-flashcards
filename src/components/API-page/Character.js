@@ -10,7 +10,9 @@ const Character = ({character, definition, pronounce, frequency}) => {
     if (definition === null){
         display = <p>{frequency}{character}({pronounce}): No definition found.</p>
     }else{
-        display = <p>{frequency}{character}({pronounce}): {definition}</p>
+        // display = <p>{frequency}{character}({pronounce}): {definition}</p>
+        // "马": [3, "mă", "horse"]
+        display = <p>{frequency} "{character}": [4, "{pronounce}", "{definition}"],</p>
     }
 
     return(

@@ -1,30 +1,85 @@
 let dictionary = {
-    //Lesson 1
-"每": [1, "měi", "each"],
-"次": [1, "cì", "second"],
-"干": [1, "gān", "to do"],
-"吗": [1, "má", "?"],
-"开": [1, "kāi", "open"],
-"恨": [1, "hěn", "very"],
-"谢": [1, "xiè", "thank"],
-    //Lesson 2
-"还": [2, "hái ", "still"],
-"能": [2, "néng", "can"],
-"块": [2, "kuài", "fast"],
-"慢": [2, "màn", "slow"],
-"语": [2, "yŭ", "language"],
-"言": [2, "yán", "words/talk"],
-"读": [2, "dú", "to read"],
-    //Lesson 3
-"虫": [3, "chóng", "insect"],
-"鸟": [3, "niăo", "bird"],
-"鱼": [3, "yú", "fish"],
-"牛": [3, "niú", "cow"],
-"羊": [3, "yáng", "sheep"],
-"肉": [3, "ròu", "meat"],
-"龙": [3, "lóng", "dragon"],
-"马": [3, "mă", "horse"],
+        //Lesson 3.1
+    "每": [3.1, "měi", "each"],
+    "次": [3.1, "cì", "second"],
+    "干": [3.1, "gān", "to do"],
+    "吗": [3.1, "má", "?"],
+    "开": [3.1, "kāi", "open"],
+    "恨": [3.1, "hěn", "very"],
+    "谢": [3.1, "xiè", "thank"],
+        //Lesson 3.2
+    "还": [3.2, "hái", "still"],
+    "能": [3.2, "néng", "can"],
+    "块": [3.2, "kuài", "fast"],
+    "慢": [3.2, "màn", "slow"],
+    "语": [3.2, "yŭ", "language"],
+    "言": [3.2, "yán", "words/talk"],
+    "读": [3.2, "dú", "to read"],
+        //Lesson 3.3
+    "虫": [3.3, "chóng", "insect"],
+    "鸟": [3.3, "niăo", "bird"],
+    "鱼": [3.3, "yú", "fish"],
+    "牛": [3.3, "niú", "cow"],
+    "羊": [3.3, "yáng", "sheep"],
+    "肉": [3.3, "ròu", "meat"],
+    "龙": [3.3, "lóng", "dragon"],
+    "马": [3.3, "mă", "horse"],
+    //Lesson 4.1
+    "身": [4.1, "shēn/juān", "body; trunk/hull"],
+    "体": [4.1, "bèn/cuì/tǐ", "body; group/unit; inferior"],
+    "眼": [4.1, "yǎn/wěn", "eye; eyelet/opening"],
+    "睛": [4.1, "jīng/jǐng", "eyeball; pupil of eye"],
+    "脸": [4.1, "liǎn", "face; cheek; reputation"],
+    "耳": [4.1, "ěr/réng", "ear; merely; handle"],
+    "鼻": [4.1, "bí", "nose; first"],
+    "牙": [4.1, "yá/yà", "tooth; serrated"],
+    //4.2
+    "腿": [4.2, "tuǐ", "legs, thighs"],
+    "脚": [4.2, "jiǎo/jué", "leg/foot; base/foundation"],
+    "肚": [4.2, "dù/dǔ", "belly; abdomen; bowels"],
+    "背": [4.2, "bèi/bēi", "back; back side; behind; betray"],
+    "指": [4.2, "zhǐ", "finger/toe; point/indicate"],
+    "眉": [4.2, "méi", "eyebrows; upper margin of book"],
+    "嘴": [4.2, "zuǐ", "mouth/lips"],
+    "巴": [4.2, "bā", "greatly desire/anxiously hope"],
+    //4.3
+    "皮": [4.3, "pí", "skin/hide/fur/feather; outer"],
+    "服": [4.3, "fú/fù/bì/bó", "clothes; wear"],
+    "肥": [4.3, "féi/bǐ", "fat/obese; fertile"],
+    "胖": [4.3, "pàn/pán/pàng", "fat/obese; fatty"],
+    "毛": [4.3, "máo/mào", "hair/fur/feathers; coarse"],
+    "巾": [4.3, "jīn", "kerchief; towel; turban"],
+    "发": [4.3, "fā", "send out; hair"],
+    "汗": [4.3, "hàn/hán/gān", "perspiration, sweat"],
+    //4.4
+    "便": [4.4, "pián/biàn/biān", "convenience; expedient"],
+    "宜": [4.4, "yí", "suitable/right/proper"],
+    "处": [4.4, "chǔ", "place/locale; department"],
+    "理": [4.4, "lǐ", "reason/logic; manage"],
+    "超": [4.4, "chāo/chǎo/chào/tiào", "jump/leap over; surpass"],
+    "市": [4.4, "shì", "market; city/town; trade"],
+    "货": [4.4, "huò", "goods/products"],
+    "架": [4.4, "jià", "rack/prop; prop up"],
+    //4.5
+    "网": [4.5, "wang3", "net; network"],
+    "低": [4.5, "dī", "low"],
+    "折": [4.5, "zhé/shé/tí/zhē", "break off/snap; bend"],
+    "扣": [4.5, "kòu", "knock/strike/tap; button"],
+    "豆": [4.5, "dòu", "beans/peas; bean-shaped"],
+    "包": [4.5, "bāo/páo/fú", "wrap/bundle; package"],
+    "米": [4.5, "mǐ", "hulled or husked uncooked rice"],
+    "面": [4.5, "miàn", "face; surface; plane; side, dimension"],
+    //4.6
+    "顾": [4.6, "gù", "look back; look at; look after"],
+    "客": [4.6, "kè/qià", "guest/traveller; customer"],
+    "买": [4.6, "mǎi", "purchase; bribe, persuade"],
+    "卖": [4.6, "mài", "sell; betray; show off"],
+    "流": [4.6, "liú", "flow/circulate; class"],
+    "行": [4.6, "háng/xìng", "go; walk; move/travel"],
+    "短": [4.6, "duǎn", "short; brief; deficient/lacking"],
+    "线": [4.6, "xiàn", "line/thread/wire; clue"]
+
+
+
 }
-
-
 export default dictionary;
