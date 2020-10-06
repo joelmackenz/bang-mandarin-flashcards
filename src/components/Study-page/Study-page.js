@@ -27,7 +27,7 @@ class Study extends React.Component {
 
     render() {
     return (
-      <div>
+      <div className="page">
         <h2>Study</h2>
         <div className="Parent">
           <div className="Library">
