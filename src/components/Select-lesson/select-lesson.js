@@ -13,9 +13,38 @@ export class selectLesson extends React.Component {
         this.props.onChange(name);
       }
 
-      render() {
 
-      const chooseLesson = ["Choose a lesson!",""]
+      render() {
+      let lessonCharList = [];
+      let lessonCharEntry = [];
+      let lesson = 3.1;
+
+      let precisionRound = (number, precision) => {
+        var factor = Math.pow(10, precision);
+        return Math.round(number * factor) / factor;
+      }
+
+      //Making a for loop to create all of the chapter divisions from the dictionary
+      for (const [key, value] of Object.entries(dictionary)){
+        if (value[0] === lesson) {
+          lessonCharEntry.push(key);
+        } else {
+          if (lessonCharEntry.length === 0) {
+          } else {
+            lessonCharList.push(lessonCharEntry);
+          }
+          lessonCharEntry = [];
+          //lesson increase by .1
+          lesson = precisionRound((lesson + .1), 2);
+          while (lesson != value[0]) {
+            //lesson is increasing by .1
+            lesson = precisionRound((lesson + .1), 2)
+          }
+          lessonCharEntry.push(key)
+          }
+        }
+
+        console.log(lessonCharList)
 
       const bookThreeChars = [];
       for (const [key, value] of Object.entries(dictionary)) {
@@ -102,7 +131,7 @@ export class selectLesson extends React.Component {
             <select
               id="lessons"
               onChange={this.changeLesson}>
-              <option value={[chooseLesson]}>Choose a lesson!</option>
+              <option>Choose a lesson!</option>
               <option value={[bookThreeChars, bookThreePinyin]}>Book 3</option>
               <option value={[lessonOneChars, lessonOnePinyin]}>Book 3, Lesson 1</option>
               <option value={[lessonTwoChars, lessonTwoPinyin]}>Book 3, Lesson 2</option>
