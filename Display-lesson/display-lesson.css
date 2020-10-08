@@ -1,0 +1,13 @@
+.LessonDisplay {
+    font-size: 30px;
+    color:darkcyan;
+    text-align: center;
+    border: solid lightblue;
+    height: 120px;
+    width: 140px;
+    border-radius: 30%;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  }
