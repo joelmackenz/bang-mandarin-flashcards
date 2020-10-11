@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/Mandarin-Flashcards2/static/css/main.c5530c0b.chunk.css",
+    "main.js": "/github.io/Mandarin-Flashcards2/static/js/main.11bbffe3.chunk.js",
+    "main.js.map": "/github.io/Mandarin-Flashcards2/static/js/main.11bbffe3.chunk.js.map",
+    "runtime-main.js": "/github.io/Mandarin-Flashcards2/static/js/runtime-main.5b9fb731.js",
+    "runtime-main.js.map": "/github.io/Mandarin-Flashcards2/static/js/runtime-main.5b9fb731.js.map",
+    "static/js/2.db7a2e6e.chunk.js": "/github.io/Mandarin-Flashcards2/static/js/2.db7a2e6e.chunk.js",
+    "static/js/2.db7a2e6e.chunk.js.map": "/github.io/Mandarin-Flashcards2/static/js/2.db7a2e6e.chunk.js.map",
+    "index.html": "/github.io/Mandarin-Flashcards2/index.html",
+    "precache-manifest.1a3d40319577eaee1d85a0758d825afb.js": "/github.io/Mandarin-Flashcards2/precache-manifest.1a3d40319577eaee1d85a0758d825afb.js",
+    "service-worker.js": "/github.io/Mandarin-Flashcards2/service-worker.js",
+    "static/css/main.c5530c0b.chunk.css.map": "/github.io/Mandarin-Flashcards2/static/css/main.c5530c0b.chunk.css.map",
+    "static/js/2.db7a2e6e.chunk.js.LICENSE.txt": "/github.io/Mandarin-Flashcards2/static/js/2.db7a2e6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b9fb731.js",
+    "static/js/2.db7a2e6e.chunk.js",
+    "static/css/main.c5530c0b.chunk.css",
+    "static/js/main.11bbffe3.chunk.js"
+  ]
+}
