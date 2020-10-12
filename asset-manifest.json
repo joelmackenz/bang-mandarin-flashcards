@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Mandarin-Flashcard-Web-App/static/css/main.171601f1.chunk.css",
-    "main.js": "/Mandarin-Flashcard-Web-App/static/js/main.afa63304.chunk.js",
-    "main.js.map": "/Mandarin-Flashcard-Web-App/static/js/main.afa63304.chunk.js.map",
+    "main.js": "/Mandarin-Flashcard-Web-App/static/js/main.8a372334.chunk.js",
+    "main.js.map": "/Mandarin-Flashcard-Web-App/static/js/main.8a372334.chunk.js.map",
     "runtime-main.js": "/Mandarin-Flashcard-Web-App/static/js/runtime-main.ed77370d.js",
     "runtime-main.js.map": "/Mandarin-Flashcard-Web-App/static/js/runtime-main.ed77370d.js.map",
     "static/js/2.db7a2e6e.chunk.js": "/Mandarin-Flashcard-Web-App/static/js/2.db7a2e6e.chunk.js",
     "static/js/2.db7a2e6e.chunk.js.map": "/Mandarin-Flashcard-Web-App/static/js/2.db7a2e6e.chunk.js.map",
     "index.html": "/Mandarin-Flashcard-Web-App/index.html",
-    "precache-manifest.e9efe8c56e9f0f04e85a5668bcf606f6.js": "/Mandarin-Flashcard-Web-App/precache-manifest.e9efe8c56e9f0f04e85a5668bcf606f6.js",
+    "precache-manifest.673919df5e5c41e7b2f269361980798d.js": "/Mandarin-Flashcard-Web-App/precache-manifest.673919df5e5c41e7b2f269361980798d.js",
     "service-worker.js": "/Mandarin-Flashcard-Web-App/service-worker.js",
     "static/css/main.171601f1.chunk.css.map": "/Mandarin-Flashcard-Web-App/static/css/main.171601f1.chunk.css.map",
     "static/js/2.db7a2e6e.chunk.js.LICENSE.txt": "/Mandarin-Flashcard-Web-App/static/js/2.db7a2e6e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ed77370d.js",
     "static/js/2.db7a2e6e.chunk.js",
     "static/css/main.171601f1.chunk.css",
-    "static/js/main.afa63304.chunk.js"
+    "static/js/main.8a372334.chunk.js"
   ]
 }
