@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mandarin-Flashcard-Web-App/precache-manifest.4844091e8f2c8edb1af55d0f1d23978e.js"
+  "/Mandarin-Flashcard-Web-App/precache-manifest.e9efe8c56e9f0f04e85a5668bcf606f6.js"
 );
 
 self.addEventListener('message', (event) => {
