@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd320e61c7d8ec0c4820faceb21765ff",
+    "revision": "286f41395565540c226aa1eb6ecc8449",
     "url": "/Mandarin-Flashcard-Web-App/index.html"
   },
   {
-    "revision": "183151df1639c3827d85",
-    "url": "/Mandarin-Flashcard-Web-App/static/css/main.328d6cef.chunk.css"
+    "revision": "ab89ba85f8278ba26aa6",
+    "url": "/Mandarin-Flashcard-Web-App/static/css/main.4056100e.chunk.css"
   },
   {
     "revision": "5c683ebab11838362f0e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mandarin-Flashcard-Web-App/static/js/2.db7a2e6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "183151df1639c3827d85",
-    "url": "/Mandarin-Flashcard-Web-App/static/js/main.806b44a6.chunk.js"
+    "revision": "ab89ba85f8278ba26aa6",
+    "url": "/Mandarin-Flashcard-Web-App/static/js/main.52c07124.chunk.js"
   },
   {
     "revision": "a13af142d8ce96846add",
