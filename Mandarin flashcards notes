@@ -1,0 +1,52 @@
+Oct 4
+Make the initial dropdown menu have a choice for an entire book, listed before the name of each chapter.
+-Also have one selection at the beginning for "all cards"
+
+-in Study-page, I am splitting the array of characters and pinyin by commas. This is causing an issue when definitions within
+the dictionary contain commas. Can the array be split into "|", then pulled apart?
+    -I think it is the push in select-lesson that is creating an array with commas. I am then splitting by those built-in commas.
+    -If I can split the array by an unusual character, it wouldnt interfere with my dictionary.
+
+
+Sept
+One child component should display, the other child component should allow for change.
+Ie: one should have a button, the other a dynamic sentence affected by the button.
+
+The parent will hold the flashcard object as its state.
+this.state = {activeCard: {PH1: PH1, PH2: PH2}}
+
+The parent will have a function that sets its state to a new active card array.
+
+This function will be a prop within one of the children: <Child onChange={this.changeActiveCard} />. 
+The child allows for the change (has a button, for instance).
+
+The function will change the state of the parent. The sibling will have props for displaying the state. <Sibling card={this.state.activeCard}>
+This array being held in the sibling's props will be displayed in sibling.
+Ie: <h1> Your random card is: {this.props.card} </h1>
+
+To sum-up: parent will display the child and sibling, and will hold the flashcards in its state.
+Child will be a button that triggers a function in parent, and holds the dictionary info (various arrays). This function will setState to change the {card} array to a new array.
+Sibling will display the contents of that new array. 
+
+
+Problem 1:
+The state of the parent cannot contain an object.
+Solution:
+Make the props contain the object (the dictionaries)
+
+
+
+Sept 1
+Currently working on: Random Flashcard.css. CSS not behaving how I expected.
+
+
+DONE! The parent object now displays an updating array of characters.
+
+Next: make the random element. One character must be chosen randomly from the current array.
+
+DONE! The randomFlashcard element now reveals one random card from the character array.
+
+Next: send the array of pinyin alongside the character array, and store it similarly.
+The pinyin button should choose the currentCard number, and reveal that pinyin in response.
+Send the pinyin array with the character array, then make the button reveal that pinyin array number. Not sure how
+to make the changeLesson function send both of those arrays to the parent state.

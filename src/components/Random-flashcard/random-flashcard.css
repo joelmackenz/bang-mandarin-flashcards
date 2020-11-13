@@ -1,0 +1,176 @@
+
+
+@media screen and (max-width: 480px) {
+    .outer-box {
+        /* border: 1px solid red; */
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+    }
+    
+    .button-box {
+    /* border: 1px solid blue;  */
+    display: flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    width:40%;
+    }
+
+    .rand-button {
+    order:1;
+    border: dotted black;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 30%;
+    padding: 2.5vw;
+    font-size:5vw;
+    } 
+
+    .character-info-box {
+        /* outline:1px solid fuchsia; */
+        width:50%;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        text-align:center;
+        justify-content: flex-start;
+        margin-top:-50%;
+        z-index: -1;
+        /* line-height:.01vw; */
+        }
+    
+        .mand-card {    
+        font-size: 10vw;
+        margin-bottom:-10%;
+        word-wrap:break-word;
+        }
+
+
+    .pinyin-card {
+    font-size: 7.5vw;
+    } 
+
+    .english-card {
+    /* font-size:5vw; */
+    }
+
+    }
+ 
+/* Tablet size */
+@media screen and (min-width:480px) and (max-width:768px){
+    .outer-box {
+        /* border: 1px solid red; */
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+    }
+    
+    .button-box {
+    /* border: 1px solid blue;  */
+    display: flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    width:40%;
+    }
+
+    .rand-button {
+    order:1;
+    border: dotted black;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 30%;
+    padding: 2.5vw;
+    font-size:3vw;
+    } 
+
+    .character-info-box {
+        /* outline:1px solid fuchsia; */
+        width:50%;
+        display:flex;
+        flex-direction: column;
+        text-align:center;
+        justify-content: flex-start;
+        margin-top:-35%;
+        z-index: -1;
+        }
+    
+        .mand-card {
+        font-size: 10vw;
+        margin-top:0%;
+        margin-bottom:-2%;
+        word-wrap:break-word;
+        }
+
+    .pinyin-card {
+    font-size: 5vw;
+    } 
+
+    .english-card {
+    font-size:3vw;
+    }
+
+    }
+
+  @media screen and (max-width: 2000px) and (min-width:768px){
+           
+    .outer-box {
+        border: 1px dotted darkcyan;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%;
+    }
+    
+    .button-box {
+    /* border: 1px solid blue;  */
+    display: flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    justify-content: space-around;
+    width:50%;
+    padding:10px;
+    }
+
+    .rand-button {
+    order:1;
+    border: dotted black;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 30%;
+    padding: 2.5vw;
+    font-size:2vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    } 
+
+    .character-info-box {
+    /* outline:1px solid fuchsia; */
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    justify-content: flex-start;
+    z-index: -1;
+    /* line-height:.01vw; */
+    }
+
+    .mand-card {
+    font-size: 7vw;
+    margin-top:0%;
+    margin-bottom:-10%;
+    }
+
+    .pinyin-card {
+    font-size: 3.5vw;
+    margin-bottom:-5%;
+    } 
+
+    .english-card {
+    font-size:2.5vw;
+    }
+
+    }
