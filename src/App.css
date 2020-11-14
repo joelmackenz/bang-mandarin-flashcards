@@ -45,3 +45,7 @@
   padding: 10;
 }
 
+/* Loading overlay */
+._loading_overlay_content {
+  font-size:10vw;
+}

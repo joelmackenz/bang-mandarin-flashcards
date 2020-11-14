@@ -5,7 +5,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="nav">
-      <h1 className="main-title">Mandarin Flashcards</h1>
+      <h1 className="main-title">照!<br/>Mandarin Flashcards</h1>
         <ul className="nav-links">
             <Link className="nav-style" to='/study'>
               Study
