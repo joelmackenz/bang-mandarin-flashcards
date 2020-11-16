@@ -5,7 +5,7 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="nav">
-      <h1 className="nav-logo">照!</h1>
+      <Link className="nav-logo" to='/home'>照!</Link>
       <ul className="nav-links">
           <Link className="nav-style" to='/study'>
             Study

@@ -1,0 +1,13 @@
+.home-main{
+    margin: 0 10vw 0 10vw;
+}
+
+.home-logo{
+    font-size:5rem;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+
+.home-paragraph{
+    text-align:center;
+    font-size:1.5rem;
+}

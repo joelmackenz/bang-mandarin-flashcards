@@ -1,5 +1,6 @@
 import React from 'react';
 import LoadingOverlay from 'react-loading-overlay';
+import Home from './components/Home page/Home';
 import Study from "./components/Study-page/Study-page";
 import DictionaryPage from "./components/Dictionary-page/Dictionary-page";
 import API from "./components/API-page/Mandarin-API";
@@ -44,7 +45,8 @@ class App extends React.Component {
       <Router basename={process.env.PUBLIC_URL}> 
         <Nav/>
         <Switch>
-          <Route path="/" exact component={Study} />
+          <Route path="/" exact component={Home} />
+          <Route path="/home" exact component={Home} />
           <Route path="/study" component={Study} />
           <Route path="/dictionary" component={DictionaryPage}/>
           <Route path="/charactersearch" component={API}/>
