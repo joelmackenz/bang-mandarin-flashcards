@@ -1,38 +1,48 @@
 @media screen and (max-width: 480px){
-        .nav {
-            display:flex;
-            flex-direction:row;
-        }
-
-
-        .main-title {
-            display:flex;
-            margin-top:.5rem;
-            height:100%;
-            margin-left:5%;
-            font-size:2.75vw;
-            /* color:red; */
-        }
-
-        .nav-links {
-            font-size:3.5vw;
-
-            display:flex;
-            flex-direction:row;
-            justify-content:space-evenly;
-
-            padding:2vw;
-            background-color:lightblue;
-
-            margin-top:0px;
-            width:100%;
-            height:100%;
-        }
-
-        .nav-style{
-            color:black;
-        }
+    .nav {
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        height:12vw;
     }
+
+    .nav-logo {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size:5vw;
+        color:whitesmoke;
+        border:.5vw solid rgb(80, 80, 80);
+        border-radius:50%;
+        padding:1vw;
+        background-color:lightblue;
+        margin: 2vw 2vw 2vw 2vw;
+        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+    }
+
+    .nav-links {
+        font-size:3.5vw;
+        color: whitesmoke;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        padding:2vw;
+        background-color:lightblue;
+        width:100%;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius:2rem;
+        border: .25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    }
+
+    .nav-style{
+        color:whitesmoke;
+        text-decoration:none;
+        font-size:2.5vw;
+    }
+    .nav-style:hover {
+        color:rgb(80, 80, 80);
+    }
+}
 
 
 /* Tablet size */
@@ -40,15 +50,24 @@
     .nav {
         display:flex;
         flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        height:12vw;
     }
 
-
-    .main-title {
-        display:flex;
-        margin-top:1vw;
-        height:100%;
-        margin-left:5%;
-        font-size:2.5vw;
+    .nav-logo {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size:5vw;
+        color:whitesmoke;
+        border:.5vw solid rgb(80, 80, 80);
+        border-radius:50%;
+        padding:1vw;
+        background-color:lightblue;
+        margin: 2vw 2vw 2vw 2vw;
+        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+    }
+    .nav-logo:hover{
+        color:rgb(80, 80, 80);
     }
 
     .nav-links {
@@ -56,50 +75,70 @@
         display:flex;
         flex-direction:row;
         justify-content:space-evenly;
-
         padding:2vw;
         background-color:lightblue;
-        margin-top:0%;
-
         width:100%;
-        height:100%;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius:2rem;
+        border: .25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
     }
 
     .nav-style{
+        color:whitesmoke;
+        text-decoration:none;
+        font-size:2.5vw;
+    }
+    .nav-style:hover {
         color:black;
     }
 }
 
-@media screen and (max-width:2000px) and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:2000px) {
     .nav {
         display:flex;
         flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        height:12vw;
     }
 
-
-    .main-title {
-        display:flex;
-        margin-top:1vw;
-        height:100%;
-        margin-left:5%;
-        font-size:2.5vw;
+    .nav-logo {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size:5vw;
+        color:whitesmoke;
+        border:.5vw solid rgb(80, 80, 80);
+        border-radius:50%;
+        padding:1vw;
+        background-color:lightblue;
+        margin: 2vw 2vw 2vw 2vw;
+        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+    }
+    .nav-logo:hover{
+        color:rgb(80, 80, 80);
     }
 
     .nav-links {
+        margin:1px solid red;
         font-size:2vw;
         display:flex;
         flex-direction:row;
         justify-content:space-evenly;
-
         padding:2vw;
         background-color:lightblue;
-        margin-top:0%;
-
         width:100%;
-        height:100%;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius:2rem;
+        border: .25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
     }
 
     .nav-style{
-        color:black;
+        color:whitesmoke;
+        text-decoration:none;
+        font-size:2.5vw;
+    }
+    .nav-style:hover {
+        color:rgb(80, 80, 80);
     }
 }

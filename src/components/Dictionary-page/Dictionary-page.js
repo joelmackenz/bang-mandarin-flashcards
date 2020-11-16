@@ -18,27 +18,20 @@ class DictionaryPage extends React.Component {
         this.english.push(value[2]);
     }
 
-    // This function does not work, but appears the exact same as what is repeated in "return"...
-    let createList = (array) => {
-        array.map((i, x) => {
-            return <li>{i}</li>
-        })}
-
     let entries = []
 
     for (const [key, value] of Object.entries(Dictionary)) {
             entries.push(
             <div className="chart">
-                <p className="entry"> {value[0]}.{value[1]} </p> 
+                <p className="entry"> {value[1]} </p> 
                 <p className="entry"> {key} </p> 
-                <p className="entry"> {value[2]} </p> 
-                <p className="entry"> {value[3]}</p>
+                <p className="entry"> {value[3]} </p> 
+                <p className="entry"> {value[4]}</p>
             </div>
             )}
     
-
         return(
-            <div>
+            <div className="dictionary-page-main">
                 <h2>Dictionary</h2>
                 <div className="columnTitles">
                     <h1 >Chapter</h1>

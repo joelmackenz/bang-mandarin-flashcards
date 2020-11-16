@@ -5,20 +5,19 @@ import "./Nav.css";
 function Nav() {
   return (
     <nav className="nav">
-      <h1 className="main-title">照!<br/>Mandarin Flashcards</h1>
-        <ul className="nav-links">
-            <Link className="nav-style" to='/study'>
-              Study
-            </Link>
+      <h1 className="nav-logo">照!</h1>
+      <ul className="nav-links">
+          <Link className="nav-style" to='/study'>
+            Study
+          </Link>
 
-            <Link className="nav-style" to='/dictionary'>
-              Dictionary
-            </Link>
+          <Link className="nav-style" to='/dictionary'>
+            Dictionary
+          </Link>
 
-            <Link className="nav-style" to='/charactersearch'>
-              Character Search
-            </Link>
-            
+          <Link className="nav-style" to='/charactersearch'>
+            Character Search
+          </Link>    
         </ul>
     </nav>
   );

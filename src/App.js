@@ -38,8 +38,8 @@ class App extends React.Component {
               background: 'rgba(104, 190, 237)'
             })
           }}
-          spinner
           text='照!'
+          spinner
           >
       <Router basename={process.env.PUBLIC_URL}> 
         <Nav/>
