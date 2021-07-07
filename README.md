@@ -24,4 +24,4 @@ This application was made as part of the co-hort program with Hatchways.
 
 ### User login/sign up
 
-![Main UI](client/src/assets/main-page.jpg)
+![Main UI](src/assets/main-page.jpg)
