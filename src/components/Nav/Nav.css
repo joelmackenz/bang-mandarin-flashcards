@@ -1,147 +1,172 @@
-@media screen and (max-width: 480px){
+/* Mobile size */
+@media screen and (max-width: 480px) {
     .nav {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-items:center;
-        height:12vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 12vw;
     }
 
     .nav-logo {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
-        font-size:5vw;
-        color:whitesmoke;
-        border:.5vw solid rgb(80, 80, 80);
-        border-radius:50%;
-        padding:1vw;
-        background-color:lightblue;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-size: 5vw;
+        color: whitesmoke;
+        border: 0.5vw solid rgb(80, 80, 80);
+        border-radius: 40%;
+        padding: 1vw;
+        background-color: lightblue;
         margin: 2vw 2vw 2vw 2vw;
-        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
-        text-decoration:none;
+        background-image: linear-gradient(
+            200deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.4)
+        );
+        text-decoration: none;
     }
 
     .nav-links {
-        font-size:3.5vw;
+        font-size: 3.5vw;
         color: whitesmoke;
-        display:flex;
-        flex-direction:row;
-        justify-content:space-evenly;
-        padding:2vw;
-        background-color:lightblue;
-        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2vw;
+        background-color: lightblue;
+        width: 100%;
         border-top-left-radius: 2rem;
-        border-bottom-left-radius:2rem;
-        border: .25vw solid rgb(80, 80, 80);
-        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        border-bottom-left-radius: 2rem;
+        border: 0.25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(
+            40deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.2)
+        );
     }
 
-    .nav-style{
-        color:whitesmoke;
-        text-decoration:none;
-        font-size:2.5vw;
+    .nav-style {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 2.5vw;
     }
     .nav-style:hover {
-        color:rgb(80, 80, 80);
+        color: rgb(80, 80, 80);
     }
 }
-
 
 /* Tablet size */
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .nav {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-items:center;
-        height:12vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 12vw;
     }
 
     .nav-logo {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
-        font-size:5vw;
-        color:whitesmoke;
-        border:.5vw solid rgb(80, 80, 80);
-        border-radius:50%;
-        padding:1vw;
-        background-color:lightblue;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-size: 5vw;
+        color: whitesmoke;
+        border: 0.5vw solid rgb(80, 80, 80);
+        border-radius: 40%;
+        padding: 1vw;
+        background-color: lightblue;
         margin: 2vw 2vw 2vw 2vw;
-        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
-        text-decoration:none;
+        background-image: linear-gradient(
+            200deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.4)
+        );
+        text-decoration: none;
     }
-    .nav-logo:hover{
-        color:rgb(80, 80, 80);
+    .nav-logo:hover {
+        color: rgb(80, 80, 80);
     }
 
     .nav-links {
-        font-size:3.5vw;
-        display:flex;
-        flex-direction:row;
-        justify-content:space-evenly;
-        padding:2vw;
-        background-color:lightblue;
-        width:100%;
+        font-size: 3.5vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2vw;
+        background-color: lightblue;
+        width: 100%;
         border-top-left-radius: 2rem;
-        border-bottom-left-radius:2rem;
-        border: .25vw solid rgb(80, 80, 80);
-        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        border-bottom-left-radius: 2rem;
+        border: 0.25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(
+            40deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.2)
+        );
     }
 
-    .nav-style{
-        color:whitesmoke;
-        text-decoration:none;
-        font-size:2.5vw;
+    .nav-style {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 2.5vw;
     }
     .nav-style:hover {
-        color:black;
+        color: black;
     }
 }
 
-@media screen and (min-width:768px) and (max-width:2000px) {
+/* Large Screen size */
+@media screen and (min-width: 768px) and (max-width: 2000px) {
     .nav {
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-        align-items:center;
-        height:12vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 12vw;
     }
 
     .nav-logo {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
-        font-size:5vw;
-        color:whitesmoke;
-        border:.5vw solid rgb(80, 80, 80);
-        border-radius:50%;
-        padding:1vw;
-        background-color:lightblue;
+        font-family: "M PLUS Rounded 1c", sans-serif;
+        font-size: 5vw;
+        color: whitesmoke;
+        border: 0.5vw solid rgb(80, 80, 80);
+        border-radius: 40%;
+        padding: 1vw;
+        background-color: lightblue;
         margin: 2vw 2vw 2vw 2vw;
-        background-image: linear-gradient(200deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
-        text-decoration:none;
+        background-image: linear-gradient(
+            200deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.4)
+        );
+        text-decoration: none;
     }
-    .nav-logo:hover{
-        color:rgb(80, 80, 80);
+    .nav-logo:hover {
+        color: rgb(80, 80, 80);
     }
 
     .nav-links {
-        margin:1px solid red;
-        font-size:2vw;
-        display:flex;
-        flex-direction:row;
-        justify-content:space-evenly;
-        padding:2vw;
-        background-color:lightblue;
-        width:100%;
+        margin: 1px solid red;
+        font-size: 2vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 2vw;
+        background-color: lightblue;
+        width: 100%;
         border-top-left-radius: 2rem;
-        border-bottom-left-radius:2rem;
-        border: .25vw solid rgb(80, 80, 80);
-        background-image: linear-gradient(40deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        border-bottom-left-radius: 2rem;
+        border: 0.25vw solid rgb(80, 80, 80);
+        background-image: linear-gradient(
+            40deg,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.2)
+        );
     }
 
-    .nav-style{
-        color:whitesmoke;
-        text-decoration:none;
-        font-size:2.5vw;
+    .nav-style {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 2.5vw;
     }
     .nav-style:hover {
-        color:rgb(80, 80, 80);
+        color: rgb(80, 80, 80);
     }
 }
