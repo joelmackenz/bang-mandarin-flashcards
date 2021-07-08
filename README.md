@@ -1,9 +1,5 @@
-# Workout Tracker
-Workout Tracker is a web app designed to keep track of workouts. A user can input, display, and view current and past workouts, categorized by strength training or cardio.
-
-## General Information
-
-This application was made as part of the co-hort program with Hatchways.
+# 照! Mandarin Flashcards
+照! Mandarin Flashcards is a React app made for practising Mandarin characters, organized in accordance with Canada Maple Press’s International Chinese Grading Courses books.
 
 ## Contributors
 
@@ -13,7 +9,6 @@ This application was made as part of the co-hort program with Hatchways.
 
 - React.js
 - JavaScript
-
 
 ## Usage
 
