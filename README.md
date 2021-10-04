@@ -13,7 +13,7 @@
 
 ## Usage
 
--   Check out a live demo here: https://joelmackenz.github.io/Mandarin-Flashcard-Web-App
+-   Check out a live demo here: https://flash-mandarin-flashcards.vercel.app/charactersearch
 
 ## Screenshoots
 

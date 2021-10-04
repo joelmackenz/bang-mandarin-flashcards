@@ -70,7 +70,7 @@ function APIDisplay() {
                     <input
                         className="search-bar"
                         type="text"
-                        value={search ? search : 'Enter a word, eg. "hao"'}
+                        value={query}
                         onChange={updateSearch}
                     />
                     <button type="submit">Submit</button>
